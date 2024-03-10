@@ -7,11 +7,11 @@ use crate::solution_second::calculate_correct_calibration_line_value;
 
 fn main() {
     let day1_first_result = calculate_calibration_value_of_file(
-        "./day1/src/puzzle_input.txt",
+        "./day1/puzzle_input.txt",
         calculate_calibration_line_value
     );
     let day1_second_result = calculate_calibration_value_of_file(
-        "./day1/src/puzzle_input.txt",
+        "./day1/puzzle_input.txt",
         calculate_correct_calibration_line_value
     );
     if let Ok(day1_first_solution) = day1_first_result {
